@@ -12,6 +12,6 @@ for (let i in heroes) {
 }
 
 console.warn("For Of");
-for (let i of heroes) {
-    console.log(i)
+for (let heroe of heroes) { // extrae el valor que se encuentra dentro del arreglo
+  console.log(heroe);
 }
